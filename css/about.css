@@ -1,0 +1,44 @@
+/* ABOUT */
+
+#about {
+	margin: 4rem 0; 
+}
+
+#about .container-about {
+	background-color: rgb(153, 194, 56); 
+	width: 80%; 
+	border-radius: 1rem;
+}
+
+#about .heading {
+	padding: 4rem; 
+	background-color: rgb(159, 201, 87); 
+	color: white; 
+	border-radius: 1rem 1rem 0 0;
+}
+
+#about .heading h2 {
+	color: white;
+	
+}
+
+#about .content-text {
+	padding: 3rem; 
+	background-color: white; 
+	color:black; 
+	border-right: 1px solid white; 
+	border-radius: 0 0 0 1rem;
+}
+
+#about .content-img {
+	padding: 0 2rem;
+}
+
+#about p {
+	padding: 0.5rem 0;
+}
+
+#about img {
+	width: 100%; 
+	bottom: 0;
+}

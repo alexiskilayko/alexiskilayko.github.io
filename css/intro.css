@@ -1,0 +1,33 @@
+/* INTRO */
+
+#intro {
+	background-color: rgb(167, 201, 87); 
+	margin: 0 0 4rem 0;
+}
+
+#intro .container {
+	color: #fff; 
+	margin: 6rem auto; 
+	padding: 5rem 0; 
+	text-align: center; 
+	width: 100%;
+	padding: 2rem;
+}
+
+#intro h2 {
+	padding: 1rem;
+	color: white;
+
+}
+
+#intro p {
+	padding: 1rem 0;
+	color: white;
+	
+}
+
+@media only screen and (min-width: 768px) {
+	#intro .container {
+		width: 60%;
+	}
+}

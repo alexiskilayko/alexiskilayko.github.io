@@ -1,0 +1,60 @@
+/* EXPERIENCE */
+
+#experience {
+	margin: 4rem 0 4rem 0; 
+}
+
+#experience .heading {
+	text-align: center; 
+	padding: 0 0 2rem 0;
+}
+
+#experience .card {
+	margin: 2rem 0;
+	width: 100%;
+	border: 1px solid #f1f1f1;
+	border-radius: 1rem;
+}
+
+#experience .card-body {
+	text-align: center;
+	padding: 0;
+}
+
+#experience .card-title {
+	padding: 2.5rem;
+	background-color: rgb(167, 201, 87);
+	color: white;
+	border-radius: 1rem 1rem 0 0;
+}
+#experience .card-title h4 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 1.7rem;
+}
+
+#experience .card-text {
+	padding: 0.5rem 2rem 1.5rem 2rem;
+}
+
+#experience .card-text p {
+	font-size: 0.9rem;
+}
+
+#experience .buttons {
+	margin: 3rem 0 0 0;
+}
+
+#experience .btn {
+	margin: 0 1.2rem;	
+}
+
+@media only screen and (min-width: 1200px) {
+	#experience {
+		padding: 5rem 5rem;
+	}
+	#experience .card {
+		width: 350px;
+		margin: 2rem 2rem;
+	}
+}

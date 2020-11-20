@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');  
+
+/* LANDING */
+
+#landing {
+	margin: 0 0 0rem 0; 
+	z-index: 0;
+}
+
+#landing h1 {
+	font-family: 'Ramabhadra', sans-serif;
+	font-size: 3.7rem;
+	color: white;
+	text-shadow: 2px 2px 8px rgb(100,100,100, 0.8);
+	text-align: center;
+}
+
+#landing img {
+	width: 500px; 
+	right: 0;
+}
+
+#landing .row {
+	padding: 0 2rem;
+}
+
+#landing .col {
+	margin: 0 0 0 5rem;
+}
+
+/*#landing .accent1 {
+	font-family: 'Ramabhadra', sans-serif;
+}
+#landing .accent2 {
+	color: rgb(127,175,27);
+}*/
+
+@media only screen and (min-width: 768px) {
+	#landing .row {
+		padding: 0 5rem;
+	}
+	
+}

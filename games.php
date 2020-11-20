@@ -70,7 +70,7 @@
 <body>
 	
 	<nav class="navbar navbar-expand-lg">
-		<a class="navbar-brand" href="index.php"><img src="imgs/icon.png" width=30px></a>
+		<a class="navbar-brand" href="../alexis.github.io/"><img src="imgs/icon.png" width=30px></a>
 		<button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>

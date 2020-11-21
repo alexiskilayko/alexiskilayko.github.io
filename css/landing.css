@@ -5,11 +5,14 @@
 #landing {
 	margin: 0 0 0rem 0; 
 	z-index: 0;
+	background-image: url('../imgs/me.JPG'); 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover;
 }
 
 #landing h1 {
 	font-family: 'Ramabhadra', sans-serif;
-	/*font-size: 2rem;*/
 	color: white;
 	text-shadow: 2px 2px 8px rgb(100,100,100, 0.8);
 	text-align: center;

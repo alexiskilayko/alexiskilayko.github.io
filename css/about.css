@@ -39,8 +39,9 @@
 }
 
 #about img {
-	width: 100%; 
-	bottom: 0;
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
 }
 
 @media only screen and (max-width:500px) {

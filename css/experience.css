@@ -14,7 +14,12 @@
 	width: 100%;
 	border: 1px solid #f1f1f1;
 	border-radius: 1rem;
+	/*transition: transform 0.2s;*/
 }
+
+/*#experience .card:hover {
+	transform: scale(1.03);
+	}*/
 
 #experience .card-body {
 	text-align: center;

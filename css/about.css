@@ -40,8 +40,9 @@
 
 #about img {
     object-fit: cover; /* Do not scale the image */
-    object-position: center; /* Center the image within the element */
+    object-position: bottom; /* Center the image within the element */
     width: 100%;
+	height: 100%;
 }
 
 @media only screen and (max-width:500px) {

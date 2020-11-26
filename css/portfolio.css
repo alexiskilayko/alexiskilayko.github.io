@@ -15,13 +15,10 @@
 	text-align:center;
 }
 
-<<<<<<< HEAD
 #portfolio .btn {
 	margin: 2rem 0 0 0;
 }
 
-=======
->>>>>>> 0aba6e110ebdd1320fab4b4921363dd593299a60
 #portfolio img {
     object-fit: cover; /* Do not scale the image */
     object-position: center; /* Center the image within the element */

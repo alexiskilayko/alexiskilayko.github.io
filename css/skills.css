@@ -23,10 +23,11 @@
 }
 
 #skills .content {
-	width: 80%; 
+	width: 100%; 
 	border: 1px solid #f1f1f1; 
 	border-radius: 1rem; 
 	padding: 4rem 2rem; 
+	margin: 0 1rem;
 	text-align:center;
 }
 
@@ -46,6 +47,10 @@
 }
 
 @media only screen and (min-width:768px) {
+	#skills .content {
+		width: 80%; 
+		margin: 0rem;
+	}
 	#skills #col2 {
 		border-bottom: 1px solid #fff; 
 		border-right: 1px solid #f1f1f1;

@@ -6,7 +6,7 @@
 
 #about .container-about {
 	background-color: rgb(153, 194, 56); 
-	width: 80%; 
+	width: 100%; 
 	border-radius: 1rem;
 }
 
@@ -39,6 +39,17 @@
 }
 
 #about img {
-	width: 100%; 
-	bottom: 0;
+    object-fit: cover; /* Do not scale the image */
+    object-position: bottom; /* Center the image within the element */
+    width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width:500px) {
+	#about .container-about {
+		margin: 0 1rem;
+	}
+	#about .content-text {
+		padding: 2rem; 
+	}
 }
